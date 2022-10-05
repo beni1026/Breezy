@@ -1,8 +1,11 @@
+import Header from "../components/navigation/Header";
+import classes from "./Home.module.css";
+
 const Home = () => {
     return (
-        <>
-            Breezydd
-        </>
+        <div>
+            <Header />
+        </div>
     );
 }
 
